@@ -17,7 +17,7 @@ module.exports = {
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "main",
   WARN_COUNT: 3,
-  PORT: process.env.PORT || 3000,
+  PORT: toBool(process.env.PORT) || 8000,
   PACKNAME: process.env.PACKNAME || "X-Asena",
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
