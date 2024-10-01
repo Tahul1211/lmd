@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@whiskeysockets/baileys": "^6.4.0",
+    "@whiskeysockets/baileys": "latest",
     "@google/generative-ai": "^0.5.0",
     "@neeraj-x0/ytsearch": "^1.0.0",
     "axios": "^1.4.0",
@@ -41,23 +41,23 @@
     "x-asena": "^1.0.1"
   },
   "scripts": {
-    "start": "pm2 start index.js --name x-asena && pm2 logs x-asena",
+    "start": "pm2 start index.js --name rahul-md && pm2 logs rahul-md",
     "code": "node lib/pcode.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/X-Electra/X-Asena.git"
+    "url": "git+https://github.com/Tahul1211/lmd.git"
   },
   "keywords": [
     "bot",
     "whatsapp"
   ],
-  "author": "Neeraj-x0",
+  "author": "Rahultechser",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/X-Electra/X-Asena/issues"
+    "url": "https://github.com/Tahul1211/lmd/issues"
   },
-  "homepage": "https://github.com/X-Electra/X-Asena#readme",
+  "homepage": "https://github.com/Tahul1211/lmd#readme",
   "devDependencies": {
     "@eslint/js": "^9.4.0",
     "eslint": "^9.4.0",
